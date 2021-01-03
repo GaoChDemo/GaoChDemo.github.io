@@ -242,12 +242,12 @@
 <li><strong>算术逻辑单元(ALU, Arithmetic Logic Unit)</strong> : CPU还要将一些常用的基本运算工具(如加法器)放进CPU，这部分负责运算。</li>
 <li><strong>控制器</strong>(CU, Control Unit) : 负责将存储器中的数据送到ALU中去做运算，并将运算后的结果存回到存储器中。</li>
 </ol>
-<img src="http://qiniu.gaoch.top/bolg/底层/cpu示意图.png?imageslim" srcset="/img/loading.gif" alt="cpu示意图" style="zoom: 75%;">
+<img src="https://qiniu.gaoch.top/bolg/底层/cpu示意图.png?imageslim" srcset="/img/loading.gif" alt="cpu示意图" style="zoom: 60%;">
 
 <center>冯诺依曼结构图，也就是现在计算机的结构图</center>
 
 
-<h3><span id="关于cpu的多核和多线程">关于CPU的多核和多线程</span></h3><img src="http://qiniu.gaoch.top/bolg/底层/超线程cpu示意图.png?imageslim" srcset="/img/loading.gif" alt="在这里插入图片描述" style="zoom:50%;">
+<h3><span id="关于cpu的多核和多线程">关于CPU的多核和多线程</span></h3><img src="https://qiniu.gaoch.top/bolg/底层/超线程cpu示意图.png?imageslim" srcset="/img/loading.gif" alt="在这里插入图片描述" style="zoom:40%;">
 
 <center>超线程CPU示意图</center>
 
@@ -307,13 +307,13 @@
 </blockquote>
 </li>
 <li><p><strong>多数多核CPU的各核都各自拥有一个L2缓存，但也有多核共享L2缓存的设计。无论如何，L1是各核私有的(但对某核内的多线程是共享的)</strong>, L3 缓存一定是CPU共享的。</p>
-<img src="http://qiniu.gaoch.top/blog/底层/多核cpu示意图.png?imageslim" srcset="/img/loading.gif" alt="image-20210103121727995" style="zoom:50%;">
+<img src="https://qiniu.gaoch.top/blog/底层/多核cpu示意图.png?imageslim" srcset="/img/loading.gif" alt="image-20210103121727995" style="zoom:35%;">
 
 </li>
 </ol>
 <center>多核cpu示意图</center>
 
-<h3><span id="mesi缓存一致性协议">MESI(缓存一致性协议)</span></h3><img src="http://qiniu.gaoch.top/blog/底层/MESI缓存层级示意图.png.png?imageslim" srcset="/img/loading.gif" alt="image-20210103123611651" style="zoom:50%;">
+<h3><span id="mesi缓存一致性协议">MESI(缓存一致性协议)</span></h3><img src="https://qiniu.gaoch.top/blog/底层/MESI缓存层级示意图.png?imageslim" srcset="/img/loading.gif" alt="image-20210103123611651" style="zoom:35%;">
 
 <blockquote>
 <p>现在大多数CPU都是多核，并且每一个核都有自己的L1、L2缓存，那么不同的CPU或者不同核访问同一个变量的是如何进行同步的呢，这就是用到了MESI协议了。</p>
